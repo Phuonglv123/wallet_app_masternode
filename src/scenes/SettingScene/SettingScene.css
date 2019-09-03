@@ -1,0 +1,39 @@
+#setting-scene .button-dashboard {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 30px 0;
+}
+#setting-scene .button-dashboard button {
+  font-size: 20px;
+  color: white;
+  background-color: #2b627b;
+  height: 50px;
+  width: 7em;
+}
+#setting-scene Input {
+  background-image: linear-gradient(to right, #2a7f86, #367ea6);
+  border: none;
+}
+#setting-scene .ant-input:focus {
+  background-image: linear-gradient(to right, #2a7f86, #367ea6);
+}
+#setting-scene .ant-select-selection--single {
+  background-image: linear-gradient(to right, #2a7f86, #367ea6);
+  border: none;
+}
+#setting-scene .login-form-button {
+  background-image: linear-gradient(to right, #2a7f86, #367ea6);
+  border: none;
+  font-size: 14px;
+  color: white;
+}
+#setting-scene .strength span {
+  border-radius: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #2b627b;
+  margin-right: 10px;
+}
+
+/*# sourceMappingURL=SettingScene.css.map */

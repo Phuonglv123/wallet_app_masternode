@@ -1,0 +1,54 @@
+#dashboard-scene .button-dashboard {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 30px;
+}
+#dashboard-scene .button-dashboard button {
+  font-size: 20px;
+  color: white;
+  background-color: #2b627b;
+  height: 50px;
+  width: 7em;
+  border-radius: 8px;
+}
+#dashboard-scene .balance-account {
+  background-image: linear-gradient(to right, #599aa1, #4186a9);
+  width: 40%;
+  box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+  line-height: 3;
+}
+#dashboard-scene .balance-account span {
+  color: white;
+  font-size: 30px;
+  font-weight: 500;
+}
+#dashboard-scene .balance-account .number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#dashboard-scene .balance-account .number img {
+  margin-left: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  #dashboard-scene .balance-account {
+    width: 100%;
+  }
+  #dashboard-scene .button-dashboard {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/*# sourceMappingURL=DashboardScene.css.map */

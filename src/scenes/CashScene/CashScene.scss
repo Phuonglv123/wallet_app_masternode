@@ -1,0 +1,97 @@
+#cashScene {
+  margin: 30px;
+
+  .item-crowd {
+    background-image: linear-gradient(to right, #2a7f86, #066091);
+    border-radius: 8px;
+    border-left: 2px solid #2b627b;
+    text-align: center;
+    padding: 3.5em;
+    line-height: 2;
+
+    .item-img {
+      justify-content: center;
+      align-items: center;
+
+      .title-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+          width: 10%;
+          margin-right: 10px;
+        }
+      }
+
+      img {
+        width: 30%;
+      }
+
+      h1 {
+        color: white;
+        margin-top: 5px;
+        white-space: nowrap;
+      }
+
+    }
+
+    .item-footer {
+      border: 1px solid white;
+      background-color: #2b627b;
+      border-radius: 8px;
+      color: white;
+      font-size: 15px;
+      font-weight: 500;
+    }
+
+    .item-footer-spec {
+      border: 1px solid white;
+      background-color: #2b627b;
+      color: white;
+      font-size: 15px;
+      font-weight: 500;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-right: 10px;
+      padding-left: 10px;
+
+      Icon {
+
+      }
+    }
+  }
+
+  .table-cash {
+    .deposit {
+      margin: 30px 0;
+
+      span {
+        padding: 15px;
+        background-color: #2b627b;
+        color: white;
+        font-weight: 600;
+      }
+    }
+  }
+
+  .ant-table-thead > tr > th {
+    background: #38819b;
+  }
+}
+
+$phone: '(min-width: 320px) and (max-width: 480px)';
+$tablet: '(min-width: 481px) and (max-width: 767px)';
+$laptop: '(min-width: 1025px) and (max-width: 1280px)';
+
+@media #{$phone} {
+  #cashScene {
+    .item-crowd {
+      margin-top: 20px;
+    }
+  }
+
+}
+
+

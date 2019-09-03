@@ -1,0 +1,86 @@
+#card-dashboard {
+  .title-card {
+    span {
+      font-size: 24px;
+      font-weight: 600;
+      color: white;
+
+    }
+  }
+
+  .btn-dashboard {
+    button {
+      padding-left: 20px;
+      padding-right: 20px;
+      background-color: #2b627b;
+      border: 1px solid #2b627b;
+      color: white;
+      font-weight: 600;
+    }
+  }
+
+
+}
+
+.table-transaction {
+  h4, span {
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .ant-card-body {
+    padding: 0;
+  }
+
+  .title-card-dash {
+    border-bottom: 1px solid #2b627b;
+
+    h4 {
+      padding-left: 20px;
+      padding-top: 5px;
+    }
+  }
+
+  .head-table-dash {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #2b627b;
+  }
+
+  .content-table-dash {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #2b627b;
+    text-align: center;
+    padding: 10px;
+  }
+}
+
+.table-chart-dash {
+  h4, span {
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .ant-card-body {
+    padding: 0;
+  }
+
+  .title-card-dash {
+    border-bottom: 1px solid #2b627b;
+
+    h4 {
+      padding: 10px;
+    }
+  }
+
+  .content-table-chart {
+    height: 300px;
+  }
+}

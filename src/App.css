@@ -1,0 +1,40 @@
+#components-layout-demo-custom-trigger .trigger {
+    font-size: 18px;
+    line-height: 64px;
+    padding: 0 24px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+#components-layout-demo-custom-trigger .trigger:hover {
+    color: #1890ff;
+}
+
+#components-layout-demo-custom-trigger .logo {
+    background: rgb(42, 127, 134);
+    margin: 0;
+    text-align: center;
+    padding: 6px;
+}
+
+.ant-layout {
+    height: 100vh;
+    background-color: #e9eff2;
+}
+
+.list-card {
+    width: 100%;
+    background-image: linear-gradient(to right, #77adb1, #619ab7);
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.2);
+    /*background-image: linear-gradient(to '#77adb1', '#619ab7');*/
+    border: none;
+}
+
+.ant-menu.ant-menu-dark .ant-menu-item-selected, .ant-menu-submenu-popup.ant-menu-dark .ant-menu-item-selected {
+    background-color: #07555a63;
+}
+
+.headerApp {
+    padding: 0;
+    background-image: linear-gradient(to right, #2a7f86, #367ea6);
+}

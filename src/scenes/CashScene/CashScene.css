@@ -1,0 +1,72 @@
+#cashScene {
+  margin: 30px;
+}
+#cashScene .item-crowd {
+  background-image: linear-gradient(to right, #2a7f86, #066091);
+  border-radius: 8px;
+  border-left: 2px solid #2b627b;
+  text-align: center;
+  padding: 3.5em;
+  line-height: 2;
+}
+#cashScene .item-crowd .item-img {
+  justify-content: center;
+  align-items: center;
+}
+#cashScene .item-crowd .item-img .title-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#cashScene .item-crowd .item-img .title-item img {
+  width: 10%;
+  margin-right: 10px;
+}
+#cashScene .item-crowd .item-img img {
+  width: 30%;
+}
+#cashScene .item-crowd .item-img h1 {
+  color: white;
+  margin-top: 5px;
+  white-space: nowrap;
+}
+#cashScene .item-crowd .item-footer {
+  border: 1px solid white;
+  background-color: #2b627b;
+  border-radius: 8px;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+}
+#cashScene .item-crowd .item-footer-spec {
+  border: 1px solid white;
+  background-color: #2b627b;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+#cashScene .table-cash .deposit {
+  margin: 30px 0;
+}
+#cashScene .table-cash .deposit span {
+  padding: 15px;
+  background-color: #2b627b;
+  color: white;
+  font-weight: 600;
+}
+#cashScene .ant-table-thead > tr > th {
+  background: #38819b;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  #cashScene .item-crowd {
+    margin-top: 20px;
+  }
+}
+
+/*# sourceMappingURL=CashScene.css.map */

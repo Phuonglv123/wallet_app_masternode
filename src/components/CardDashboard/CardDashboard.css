@@ -1,0 +1,65 @@
+#card-dashboard .title-card span {
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+}
+#card-dashboard .btn-dashboard button {
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #2b627b;
+  border: 1px solid #2b627b;
+  color: white;
+  font-weight: 600;
+}
+
+.table-transaction h4, .table-transaction span {
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+}
+.table-transaction .ant-card-body {
+  padding: 0;
+}
+.table-transaction .title-card-dash {
+  border-bottom: 1px solid #2b627b;
+}
+.table-transaction .title-card-dash h4 {
+  padding-left: 20px;
+  padding-top: 5px;
+}
+.table-transaction .head-table-dash {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #2b627b;
+}
+.table-transaction .content-table-dash {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #2b627b;
+  text-align: center;
+  padding: 10px;
+}
+
+.table-chart-dash h4, .table-chart-dash span {
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+}
+.table-chart-dash .ant-card-body {
+  padding: 0;
+}
+.table-chart-dash .title-card-dash {
+  border-bottom: 1px solid #2b627b;
+}
+.table-chart-dash .title-card-dash h4 {
+  padding: 10px;
+}
+.table-chart-dash .content-table-chart {
+  height: 300px;
+}
+
+/*# sourceMappingURL=CardDashboard.css.map */

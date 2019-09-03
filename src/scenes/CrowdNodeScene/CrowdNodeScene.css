@@ -1,0 +1,21 @@
+#CrowdNodeScene {
+  margin: 30px;
+}
+#CrowdNodeScene .item-crowd {
+  background-image: linear-gradient(to right, #2a7f86, #066091);
+  border-radius: 8px;
+  border-left: 2px solid #2b627b;
+  text-align: center;
+  padding: 3.5em;
+}
+#CrowdNodeScene .item-crowd h1 {
+  color: white;
+}
+#CrowdNodeScene .item-crowd span {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  margin-right: 10px;
+}
+
+/*# sourceMappingURL=CrowdNodeScene.css.map */
